@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+body{
+    background: darkolivegreen;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scrape{
+    position: relative;
+    top: 16rem;
+    left: 40rem;
+    position: fixed;
+}
+
+.scrape h1{
+    color: darkorange;
+}
+
+.arrow{
+    color: black;
+    position: relative;
+    top: 33rem;
+    left: 80rem;
+    position: fixed;
+}

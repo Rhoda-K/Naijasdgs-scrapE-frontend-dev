@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&family=Roboto+Condensed:wght@300&display=swap');
+:root{
+    --border-radius: 2rem;
+    --card-border-radius:1rem;
+   
+}
+
+body{
+    background: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.declutter{
+    position: relative;
+    top: 1rem;
+    left: 27rem;
+    position: fixed;
+}
+
+.declutter h2{
+    position: relative;
+    bottom: 1rem;
+    left: 13rem;
+  
+}
+.one{
+    position: relative;
+    left: 7.9rem;
+}
+.two{
+    position: relative;
+    left: 8.8rem;
+}
+
+.arrow{
+    color: black;
+    position: relative;
+    top: 33rem;
+    left: 80rem;
+    position: fixed;
+}
+.skip a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    top: 35rem;
+    left: 1rem;
+    position: fixed;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 36rem;
+    width: 5rem;
+    left: 40.5rem;
+}
+
+.container span{
+   position:relative;
+   height: 12px;
+   width: 15px;
+   background-color: lightgray;
+   border-radius: 50%;
+}
+
+ span .active{
+    background: black;
+}
+
+.earn{
+    position: relative;
+    top: 1rem;
+    left: 27rem;
+    position: fixed;
+}
+
+.earn h2{
+    position: relative;
+    bottom: 5rem;
+    left: 14rem;
+}
+
+.earn p{
+    position: relative;
+    bottom: 4rem;
+    left: 7rem;
+}
+
+
+
+
+.container span{
+    position:relative;
+    height: 12px;
+    width: 15px;
+    background-color: lightgray;
+    border-radius: 50%;
+ }
+ 
+  span .active{
+     background: black;
+ }
+
+
+.ease{
+    position: relative;
+    bottom: 3rem;
+    left: 27rem;
+    position: fixed;
+}
+
+.ease h2{
+    position: relative;
+    bottom: 7rem;
+    left: 14rem;
+}
+
+.on{
+    position: relative;
+    bottom: 7rem;
+    left: 7rem;
+}
+.tw{
+    position: relative;
+    bottom: 7rem;
+    left: 13.5rem;
+}
+
+button{
+   position: relative; 
+   top: 33rem;
+   left: 32.3rem;
+   width: 10rem;
+   height: 3rem;
+   background-color: darkcyan;
+}
+
+button a{
+    text-decoration: none;
+}
+
+.cont{
+    position: relative;
+    left: 2rem;
+    position: fixed;
+}
+
+.back a{
+    text-decoration: none;
+    color: black;
+}
+
+.welcome h2{
+    position: relative;
+    left: 32rem;
+}
+
+.welcome h3{
+    position: relative;
+    left: 33rem;
+}
+
+.phone-no{
+    position: relative;
+    top: 1.5rem;
+    left: 35.7rem;
+}
+
+.phone-no h4{
+    position: relative;
+    left: 1.5rem;
+}
+
+.phone-no input{
+   position: relative;
+   width: 15rem; 
+   height: 2rem;
+   right: 2.3rem;
+}
+
+.password{
+    position: relative;
+    top: 1.5rem;
+    left: 35.7rem;
+}
+
+.password h4{
+    position: relative;
+    left: 2.46rem;
+}
+
+.password input{
+   position: relative;
+   width: 15rem; 
+   height: 2rem;
+   right: 2.3rem;
+}
+
+.forpass a{
+    position: relative;
+    top: 2rem;
+    left: 45rem;
+    text-decoration: none;
+    color: black;
+}
+
+.lg-bt input{
+    background:  darkcyan;
+    border-radius: 5%;
+    overflow: hidden;
+    width: 9rem;
+    height: 3rem;
+    position: relative;
+    top: 2rem;
+    left: 36.62rem;
+
+}
+.or h5{
+     position: relative;
+     top: 30rem;
+     left: 31.8rem;
+     position: fixed;
+}
+
+.icon{
+    display: flex;
+    width: 8rem;
+    justify-content: space-between;
+    position: relative;
+    top: 33rem;
+    left: 38.51rem;
+}
+.icon a{
+    text-decoration: none;
+    color: black;
+}
+.first input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.last input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.phone-num input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.email input{
+    width: 20rem;
+    height: 2rem;
+}
+
+.nxt{
+    position: relative;
+    background: darkcyan;
+    top: 1rem;
+    left: 4.5rem;
+    width: 10rem;
+    height: 2.5rem;
+}
+
+
+.Or h5{
+    position: relative;
+    top: 1rem;
+
+}
+
+.Icon{
+   display: flex;
+   width: 8rem;
+   justify-content: space-between;
+   position: relative;
+   top: 1rem;
+   left: 6.8rem;
+}
+
+.Icon a{
+   text-decoration: none;
+   color: black;
+   position: relative;
+}
+ .pop-up b{
+     color: grey;
+ }
+
+ .pop-up input{
+    width: 5rem;
+    height: 5rem;
+    font-size: 2.2rem;
+ }
+ .pop-up h4{
+     color: red;
+     cursor: pointer;
+ }
+ .pop-up h4:hover{
+     color: blue;
+ }
+
+
+
+
