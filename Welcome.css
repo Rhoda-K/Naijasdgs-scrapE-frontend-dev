@@ -21,4 +21,5 @@ body{
     top: 33rem;
     left: 80rem;
     position: fixed;
+    display: block;
 }

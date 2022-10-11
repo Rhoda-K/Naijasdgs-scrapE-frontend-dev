@@ -38,6 +38,8 @@ body{
     top: 33rem;
     left: 80rem;
     position: fixed;
+    display: block
+
 }
 .skip a{
     text-decoration: none;
@@ -143,7 +145,7 @@ button a{
 
 .cont{
     position: relative;
-    left: 2rem;
+    place-items: center;
     position: fixed;
 }
 
@@ -231,6 +233,7 @@ button a{
     position: relative;
     top: 33rem;
     left: 38.51rem;
+    position: fixed;
 }
 .icon a{
     text-decoration: none;
@@ -256,6 +259,7 @@ button a{
     height: 2rem;
 }
 
+
 .nxt{
     position: relative;
     background: darkcyan;
@@ -265,10 +269,12 @@ button a{
     height: 2.5rem;
 }
 
-
 .Or h5{
     position: relative;
     top: 1rem;
+    width: 50vw;
+    height: 100vh;
+
 
 }
 
@@ -286,6 +292,8 @@ button a{
    color: black;
    position: relative;
 }
+
+
  .pop-up b{
      color: grey;
  }
@@ -303,6 +311,39 @@ button a{
      color: blue;
  }
 
+.pop-up{
+    background: rgba(255, 255, 255, 0.5);
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    z-index: 100;
+    display: grid;
+    place-items: center;
+    font-size: 0.9rem;
+   
+   
+}
+
+.pop-up div{
+    position: relative;
+    top: 1.5rem;
+    left: 1rem;
+}
+
+.pop-up input{
+    position: relative;
+    left: 2rem;
+}
+
+.pop-up .active{
+    display: block;
+}
+
+.pop-up .notact{
+    display: none;
+}
 
 
 
