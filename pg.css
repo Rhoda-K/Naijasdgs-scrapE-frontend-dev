@@ -292,7 +292,7 @@ button a{
    color: black;
    position: relative;
 }
-
+ 
 
  .pop-up b{
      color: grey;
@@ -326,10 +326,21 @@ button a{
    
 }
 
-.pop-up div{
+.pop-up .cont-cad{
     position: relative;
     top: 1.5rem;
     left: 1rem;
+    width: 30rem;
+    height: 19rem;
+    background-color: aliceblue;
+    text-align: justify;
+    border-radius: 2%;
+}
+
+.contain{
+    position: relative;
+    top: 1rem;
+    left: 2rem;
 }
 
 .pop-up input{
@@ -337,13 +348,19 @@ button a{
     left: 2rem;
 }
 
-.pop-up .active{
-    display: block;
-}
-
-.pop-up .notact{
+.pop-up{
     display: none;
 }
+
+#next{
+    width: 5rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: green;
+    border-radius: 1rem;
+    left: 15rem;
+}
+
 
 
 
